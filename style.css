@@ -14,6 +14,9 @@ header{
     padding: 10px 18%;
     border-bottom: 1px solid rgba(219,219,219,1);
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 header .logo{
     height: 54px;
@@ -213,6 +216,10 @@ section{
     align-items: center;
     margin-right: 40px;
 }
+
+.right-side .profile-title .profile-right{
+    padding-left: 55px;
+}
 .right-side .profile-title .profile-left .image img{
     border-radius: 50%;
     margin-right: 15px;
@@ -236,7 +243,7 @@ section{
 .suggestion-title .suggestion-left{
     display: flex;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 .suggestion-title .suggestion-left .image img{
     border-radius: 50%;
@@ -244,15 +251,21 @@ section{
 }
 
 .suggestion-title .suggestion-left .details .name{
-    padding-bottom: 3px;
+    padding-bottom: 2px;
+    margin-left: 15px;
 }
-.suggestion-title .suggestion-left .details .surname{
-    padding-left: 15px;
+.suggestion-title .suggestion-left .details .location{
+    padding-bottom: 2px;
+    margin-left: 15px;
 }
- .suggestion-right p{
-    padding-left: 70px;
-    padding-bottom: 78px;
+.suggestion-right{
+    padding-left: 23%;
 }
+.suggestion-right .style{
+    padding-left: 4%;
+}
+
+
 
 
 
